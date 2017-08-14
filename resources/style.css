@@ -1,0 +1,322 @@
+ /*Mobile First Design */
+@media all and (max-width: 480px) {
+    #main, #page {
+        flex-direction: column;
+    }
+
+    #main > article, #main > nav, #main > aside {
+        order: 0;
+        
+    }
+
+    #main > nav, #main > aside, header, footer {
+        min-height: 50px;
+        max-height: 50px;
+        
+    }
+    
+    #temp {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .weather-data{
+        width: 80%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom: 10px;
+        padding:10px;
+        height:auto;
+        font-size:20px;
+        display: block;
+        position: relative;
+        bottom:0;
+        left: 10%;
+        height: 20%;
+        flex-basis: 10%;
+        color:black;
+        margin: 4px;
+        margin-bottom: 0;
+        padding: 5px;
+        background: transparent;
+    }
+        
+    body{
+        text-align:center;
+        background-color: transparent;
+        color:black;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment:fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+@media all and (min-width: 481px) {
+    #main, #page {
+        flex-direction: column;
+    }
+
+    #main > article, #main > nav, #main > aside {
+        order: 0;
+        
+    }
+
+    #main > nav, #main > aside, header, footer {
+        min-height: 50px;
+        max-height: 50px;
+        
+    }
+    
+    #temp{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .weather-data{
+        width: 80%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom: 10px;
+        padding:10px;
+        height:auto;
+        font-size:20px;
+        display: block;
+        position: relative;
+        bottom:0;
+        left: 10%;
+        height: 20%;
+        flex-basis: 10%;
+        color:white;
+        margin: 4px;
+        margin-bottom: 0;
+        padding: 5px;
+        background: transparent;
+        }
+        
+    body{
+        text-align:center;
+        background-color: transparent;
+        color:black;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment:fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media all and (min-width: 641px) {
+    #main, #page {
+        flex-direction: column;
+    }
+
+    #main > article, #main > nav, #main > aside {
+        order: 0;
+        
+    }
+
+    #main > nav, #main > aside, header, footer {
+        min-height: 50px;
+        max-height: 50px;
+        
+    }
+    
+    #temp{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .weather-data{
+        width: 80%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom: 10px;
+        padding:10px;
+        height:auto;
+        font-size:20px;
+        display: block;
+        position: relative;
+        bottom:0;
+        left: 10%;
+        height: 20%;
+        flex-basis: 10%;
+        color:black;
+        margin: 4px;
+        margin-bottom: 0;
+        padding: 5px;
+        background: transparent;
+        }
+        
+    body{
+        text-align:center;
+        background-color: transparent;
+        color:black;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment:fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+@media all and (min-width: 760px) {
+    #main, #page {
+        flex-direction: column;
+    }
+
+    #main > article, #main > nav, #main > aside {
+        order: 0;
+        
+    }
+
+    #main > nav, #main > aside, header, footer {
+        min-height: 50px;
+        max-height: 50px;
+        
+    }
+    
+    #temp{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    .weather-data{
+        width: 80%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom: 10px;
+        padding:10px;
+        height:auto;
+        font-size:20px;
+        display: block;
+        position: relative;
+        bottom:0;
+        left: 10%;
+        height: 20%;
+        flex-basis: 10%;
+        color:#000000;
+        margin: 4px;
+        margin-bottom: 0;
+        padding: 5px;
+        background: transparent;
+        }
+        
+    body{
+        text-align:center;
+        background-color: transparent;
+        color:#000000;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-decoration: none;
+    }
+
+}
+
+ /*css below applies to all */
+
+ * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#footer {
+    text-align: center;
+    display: inline;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    color:#000000;
+    margin: 4px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    padding: 5px;
+    background: transparent;
+    text-decoration: none;
+    text-decoration-color:#000000;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:#000000;   
+}
+
+h1{
+    color:#000000;
+    font-size:48px;
+    font-weight: bolder;
+} 
+ 
+body{
+    /*background: url('http://fanaru.com/weather-fun/image/157923-weather-fun-hot-summer-day.jpg') no-repeat center;*/
+    background-color: #edeeee;
+}
+
+.block{
+    background-color: #e3deee;
+    /*opacity: .8;*/
+    /*color: black;*/
+    /*padding: 30px 30px 30px 30px;*/
+    /*width: 300px;*/
+    /*margin-top: 50px;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*border-radius: 15px 15px 15px 15px;*/
+    /*font-size: 1.5em;*/
+    /*text-align: center;*/
+    /*border: 10px solid black*/
+    /*box-shadow: 0px 0px 3px 6px #ccc;*/
+  width:250px;
+  height:330px;
+  border:1px solid black;
+  padding: 20px;
+  border-radius:20px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 3px 6px #ddd;
+}
+
+#display{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 10em;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #fff;
+    text-align: right;
+    font: 20px bold;
+}
+
+.keys{
+    width: 40px;
+    height: 35px;
+    margin: 3px;
+    box-shadow: 0px 0px 1px 1px #fff;
+    border-radius: 2px;
+    outline: none;
+}
+
+#equalsButton{
+    width: 92px;
+    height: 35px;
+    margin: 4px;
+    box-shadow: 0px 0px 1px 1px #fff;
+    border-radius: 2px;
+    outline: none;
+}
